@@ -1,11 +1,15 @@
-import "./App.css";
+import { Component } from "react";
+import "./App.scss";
+import { tourData } from "./tourData";
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Hello world!</h2>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h2>Hello world</h2>
+      </div>
+    );
+  }
 }
 
 export default App;
