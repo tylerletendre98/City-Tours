@@ -5,7 +5,7 @@ import "./tourList.scss";
 class TourList extends Component {
   render() {
     return (
-      <section>
+      <section className="tourlist">
         <div>
           <Tour />
         </div>

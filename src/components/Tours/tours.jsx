@@ -7,8 +7,6 @@ class Tour extends Component {
       <article className="tour">
         <div className="img-container">
           <img
-            width="200"
-            height="300"
             src="https://images.pexels.com/photos/4388165/pexels-photo-4388165.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt=""
           />
